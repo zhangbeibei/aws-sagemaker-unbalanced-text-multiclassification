@@ -1,4 +1,5 @@
 # 利用 AWS Sagemaker BlazingText 对不均衡文本进行多分类
+详细文章参考：https://aws.amazon.com/cn/blogs/china/use-aws-sagemaker-blazingtext-to-multi-classify-unbalanced-text/
 
 ## 背景
 文本分类(Text Classification) 属于自然语言处理领域，是指计算机将载有信息的一篇文本映射到预先给定的某一类别或某几类别主题的过程。然而在现实问题中，经常会遇到数据样本的类别不平衡 (class imbalance) 现象，严重影响了文本分类的最终结果。所谓样本不均衡指的是给定数据集中有的类别数据多，有的数据类别少，且数据占比多的数据类别样本与占比小的数据类别样本两者之间达到较大的比例。
